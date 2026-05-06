@@ -1,37 +1,32 @@
 ---
 name: Maintenance Report
-about: Report maintenance tasks, cleanup, or refactoring needs
+about: Report maintenance tasks and housekeeping items
 title: 'Maintenance: '
-labels: ''
+labels: maintenance
 assignees: ''
 ---
 
 ## Maintenance Description
-A clear description of the maintenance task needed.
+A clear and concise description of the maintenance task.
 
-## Area of Impact
-Which part of the codebase is affected?
-- [ ] Source code
-- [ ] Tests
-- [ ] Documentation
-- [ ] CI/CD
-- [ ] Dependencies
-- [ ] Configuration
+## Scope
+- [ ] Code cleanup
+- [ ] Dependency updates
+- [ ] Performance optimization
+- [ ] Documentation updates
+- [ ] Infrastructure changes
 
-## Current State
-Describe the current state of the code/system that needs maintenance.
+## Impact Assessment
+Describe the impact of this maintenance task.
 
-## Desired State
-Describe what the code/system should look like after maintenance.
+## Timeline
+Expected time needed to complete this task.
 
-## Priority Justification
-Why does this maintenance need to happen now?
-
-## Estimated Effort
-- [ ] Small (< 1 hour)
-- [ ] Medium (1-4 hours)
-- [ ] Large (4-8 hours)
-- [ ] Extra Large (> 8 hours)
+## Dependencies
+List any dependencies or blockers for this task.
 
 ## Additional Context
 Add any other context about the maintenance task here.
+
+## Priority Keywords
+<!-- Include one: critical, urgent, important, high, medium, normal, low, minor -->
